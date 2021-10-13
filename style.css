@@ -1,14 +1,23 @@
-p{
+caption{
     padding: 10px;
     width: 580px;
     background-color: aqua;
-    position: relative;
-    top: 16px;
-    left: 532px;
 }
 .row-grey{
     background-color: rgb(204, 207, 207);
 }
 .row-durk{
     background-color: rgb(143, 146, 146);
+}
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    width: 200px;
 }
