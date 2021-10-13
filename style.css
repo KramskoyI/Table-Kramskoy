@@ -3,14 +3,16 @@ caption{
     width: 580px;
     background-color: aqua;
 }
-.row-grey{
-    background-color: rgb(204, 207, 207);
+tbody tr:nth-child(even){
+    background-color: rgb(206, 209, 209);
 }
-.row-durk{
-    background-color: rgb(143, 146, 146);
+tfoot{
+    background-color: rgb(163, 167, 167);
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid;
+    border-color: black;
+    border-spacing: 0;
 }
 table{
     width: 600px;
@@ -20,4 +22,7 @@ table{
 }
 td{
     width: 200px;
+}
+.position{
+    text-align: left;
 }
